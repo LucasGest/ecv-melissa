@@ -228,7 +228,7 @@ header ul li:hover a {
   left: -18px;
   top: -5px;
   content: " ";
-  border: 8px solid var(--primaryX);
+  border: 8px solid var(--primary);
   border-radius: 500%;
   background: var(--white);
   height: 20px;

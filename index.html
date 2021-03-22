@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Je suis Mélissa Chocholacek, je suis étudiante entrepreuneure en Information Communication et Publicité au Havre. Je serais prochainement étudiante en Bachelor 3 chef de projet digitale à Lille !"/>
+    <title>Mélissa Chocholacek | Communication digitale</title>
+
+    <link rel="stylesheet" type="text/css" href="css/index.css"/>
+    <link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+
+    <link rel="icon" href="img/icon.png"/>
+    
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="js/parallax.js-1.5.0/parallax.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+
+</head>
+<body>
+    
+    <header>
+
+        <!-- Nav Responsive -->
+
+        <div id="root">
+            <div id="topnav" class="topnav">
+        
+                <a id="topnav_hamburger_icon" href="javascript:void(0);" onclick="showResponsiveMenu()">
+                    <!-- Some spans to act as a hamburger -->
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </a>
+        
+                <!-- Responsive Menu -->
+                <div class="text-p">
+                    <h2>Mélissa Chocholacek</h2>
+                </div>
+                
+                <nav role="navigation" id="topnav_responsive_menu">
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="#grid" class="cd-scroll">Menu Déroulant</a>
+                            <ul>
+                                <li class="subElement"><a href="index.html">Accueil</a></li>
+                                <li class="subElement"><a href="#menu-competences">Compétences</a></li>
+                                <!-- <li class="subElement"><a href="#">Portfolio</a></li> -->
+                                <li class="subElement"><a href="#menu-expe">Expériences</a></li>
+                                <li class="subElement"><a href="#container-activity">Centre d'intérêts</a></li>
+                            </ul></li>
+                                <li><a class="ctn" href="#">Contact Me</a></li>
+                            </ul>
+                </nav>
+            </div>
+        </div>
+
+        <div class="header-text">
+
+            <div class="text-p">
+                <h1>Mélissa Chocholacek</h1>
+                <p class="word"></p>
+            </div>
+        
+            <nav>
+                <ul>
+                    <li><a class="cd-scroll" href="index.html">Accueil</a></li>
+                    <li><a class="cd-scroll" href="#menu-competences">Compétences</a></li>
+                    <!-- <li><a class="cd-scroll" href="#">Portfolio</a></li> -->
+                    <li><a class="cd-scroll" href="#menu-expe">Expériences</a></li>
+                    <li><a class="cd-scroll" href="#container-activity">Centre d'intérêts</a></li>
+                </ul>
+            </nav>
+
+        </div>       
+
+        <div class="blockquote">
+            <h2>Rêver.<br> Créer.<br> Découvrir.</h2>
+        </div>
+
+        <div class="parallax-window" data-parallax="scroll" data-image-src="img/foret_2.jpg"></div>
+        
+    </header>
+
+    <div id="menu-competences"></div>
+    
+
+    <h2 class="title-competence">Mes compétences</h2>
+
+    <div id="competences">
+
+        <div class="content-c">
+
+            <div class="card-img">
+                <img src="img/logiciels.jpg" alt="Image representant les logiciels que j'utilise"/>
+            </div>
+            
+            <h2>Mes Compétences Logicielles</h2>
+
+            <ul class="logiciels">
+                <li>Adobe : Illustrator, InDesign, After Effect ...</li>
+                <li>Pack Office : Word, Excel, Powerpoint</li>
+                <li>CMS : Wordpress, WIX</li>
+                <li>Web : HTML, CSS</li>
+            </ul>
+        </div>
+
+        <div class="content-c">
+
+            <div class="card-img">
+                <img src="img/foret_3.jpg" alt="Image représentant mes qualités"/>
+            </div>
+
+            <h2>Mes qualités</h2>
+
+            <ul class="qualite">
+                <li>Travail d'équipe</li>
+                <li>Aventurière</li>
+                <li>Sportive</li>
+                <li>Curieuse</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <div id="menu-expe"></div>
+
+    <h2 class="title-expe">Mes expériences profesionnelles</h2>
+
+    <div id="container-expe">
+        <ul class="contenu">
+            <li class="contenu-item" ng-repeat="itembx">
+                <div class="timestamp">
+                    <h2>6 Avril 2021 - 11 juin 2021</h2>
+                    <p>Le Havre</p>
+                </div>
+                
+                <div class="item-title">
+                    <p>Mission à venir 🚀</p>
+                </div>
+            </li>
+
+            <li class="contenu-item" ng-repeat="itembx">
+                <div class="timestamp">
+                    <h2>3 Février 2020 - 21 Février 2020</h2>
+                    <p>Gonfreville L'Orcher</p>
+                </div>
+
+                <div class="item-title">
+                    <p>Création Graphique</p>
+                    <p>Aide en atelier d'imprimerie</p>
+                </div>
+            </li>
+      
+            <li class="contenu-item" ng-repeat="itembx">
+                <div class="timestamp">
+                    <h2>Avril 2019 - Juin 2019</h2>
+                    <p>Le Havre</p>
+                </div>
+
+                <div class="item-title">
+                    <p>Accueil du Client</p>
+                    <p>Aide des clients dans la salle d'escape game</p>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <h2 class="title-activity">Mes centre d'intérêts</h2>
+
+    <div id="container-activity">
+
+        <div id="escalade" class="section">
+            <div class="content">
+                <h3>Escalade</h3>
+            </div>
+        <div class="overlay"></div>
+        </div>
+
+        <div id="graphisme" class="section">
+            <div class="content">
+                <h3>Graphisme & Radio</h3>
+            </div>
+        <div class="overlay"></div>
+        </div>
+
+        <div id="photographie" class="section">
+            <div class="content">
+                <h3>Photographie</h3>
+            </div>
+        <div class="overlay"></div>
+        </div>
+
+        <div id="foret" class="section">
+            <div class="content">
+                <h3>Forêt</h3>
+            </div>
+        <div class="overlay"></div>
+        </div>
+      </div>
+
+    <footer>
+        <h3>🧗🏻‍♀️ Melissa Chocholacek 🧗🏻‍♀️</h3>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="mailto:melissa.chocholacek@gmail.com">Contactez-moi !</a></li>
+            <li><a href="https://www.linkedin.com/in/lucas-gest/">Développeur Web</a></li>
+            <li><a href="https://www.linkedin.com/in/melissa-chocholacek/"><img src="img/icons/linkedin.svg" alt="Compte Linkedin"></a></li>
+        </ul>
+    </footer>
+
+    <div class="copyright">
+        <p>🤖 Copyright - 2020/2021 🤖</p>
+    </div>
+
+</body>
+</html>

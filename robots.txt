@@ -1,3 +1,7 @@
-User-Agent: *
+User-Agent: GoogleBot
 Disallow: /img/
-Allow: /*.css?*
+Crawl delay: 10
+
+User-Agent: BingBot
+Disallow: /img/
+Crawl delay: 10

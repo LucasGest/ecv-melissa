@@ -260,11 +260,15 @@
     }
 
     footer ul {
-      width: 345px;
+      width: auto;
     }
 
     footer h3 {
       margin-bottom: 10px;
+    }
+    
+    footer .reseau {
+      display: none;
     }
   }
 }

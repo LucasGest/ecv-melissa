@@ -1,7 +1,7 @@
 User-Agent: GoogleBot
-Disallow: /img/
+Disallow: 
 Crawl delay: 10
 
 User-Agent: BingBot
-Disallow: /img/
+Disallow: 
 Crawl delay: 10

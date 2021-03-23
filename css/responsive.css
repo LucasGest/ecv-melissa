@@ -231,6 +231,10 @@
       margin: 0;
       width: 100%;
     }
+    
+    .text-p h2 {
+      padding-right: 20px;
+    }
 
     .content-c {
       width: 330px;
